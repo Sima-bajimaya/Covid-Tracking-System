@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  font-family: sans-serif;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  background-color: #fff;
+  font-feature-settings: "tnum", "tnum";
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+.hide {
+  display: none;
+}
+/* look through it */
+.fadeIn {
+  animation: ease-in-out;
+  animation-duration: 2s;
+}
+
+header {
+  display: flex;
+  max-width: 1500px;
+  background-color: beige;
+  height: 90px;
+}
+.logo img {
+  width: 60px;
+  height: 70px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  padding: 10px;
+  list-style: none;
+  float: right;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+main {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.box-cases {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 50px;
+}
+.loading {
+  font-size: 2em;
+  font-weight: bold;
+  color: burlywood;
+}
+.change-country {
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+}
+.search-country {
+  position: relative;
+  top: 10px;
+}
+.search-box {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 500px;
+  height: 30px;
+  background-color: aquamarine;
+  justify-content: space-between;
+}
+.search-box input {
+  font-size: 15px;
+  width: 90%;
+  border: none;
+  background-color: transparent;
+}
+
+.search-box img {
+  width: 20px;
+  cursor: pointer;
+  padding-right: 10px;
+}
+.country-list {
+  display: flex;
+  position: absolute;
+  top: 30px;
+  background-color: cadetblue;
+  opacity: 0.9;
+  height: 300px;
+  width: 500px;
+  overflow-y: scroll;
+}
+.country-list ul {
+  width: 100%;
+}
+.country-list ul li {
+  font-weight: bold;
+  color: white;
+  padding: 5px;
+  list-style: none;
+}
+.country-list ul li:hover {
+  color: black;
+  opacity: 0.5;
+  border-left: 1px solid yellow;
+}
+
+.country-box {
+  width: 30%;
+}
+.country-box .total-cases .infected .recovered .death {
+  height: 100px;
+}
+.chart{
+    width: 80%;
+    height: 70vh;
+    min-height: 500px;
+
+    margin: 0 auto;
+    padding: 50px 0;
+    background-color:white;
+}
+
+/* @media  screen and(max-width:600px){
+  .box-cases
+  {display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+} */

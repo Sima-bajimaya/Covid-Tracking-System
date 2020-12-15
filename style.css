@@ -1,0 +1,246 @@
+body {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  font-family: sans-serif;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  background-color: #fff;
+  font-feature-settings: "tnum", "tnum";
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+nav {
+  display: block;
+}
+div {
+  display: block;
+}
+.menuBar {
+  padding: 0 20px;
+  border-bottom: none;
+  overflow: auto;
+  background: #fff;
+}
+.logo,
+img {
+  width: 250px;
+}
+.logo {
+  float: left;
+}
+.logo a {
+  display: inline-block;
+  font-size: 20px;
+  padding: 19px 20px;
+  text-transform: capitalize;
+  margin-left: -20px;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  padding: 10px;
+  list-style: none;
+  float: right;
+}
+nav ul li a {
+  text-decoration: none;
+}
+a:hover {
+  background-color: lightcoral;
+  opacity: 50%;
+  transform: scale(1.1);
+}
+.logo,
+img {
+  width: 250px;
+}
+img {
+  height: 50px;
+  vertical-align: middle;
+  border-style: none;
+}
+.menuCon {
+  width: calc(100% - 250px);
+  float: left;
+}
+.menuCon .rightMenu {
+  margin-top: 20px;
+  float: right;
+}
+.list-menu {
+  margin-top: 10px;
+  list-style: none;
+}
+.list-menu li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.list-menu li a {
+  text-decoration: none;
+  color: #1da57a;
+  font-weight: 700;
+  font-size: 12px;
+}
+.ant-row-center {
+  justify-content: center;
+}
+.ant-row,
+.ant-row:after,
+.ant-row:before {
+  display: flex;
+}
+.ant-row {
+  flex-flow: row wrap;
+}
+.ant-typography {
+  color: rgba(0, 0, 0, 0.65);
+  overflow-wrap: break-word;
+}
+.ant-col {
+  position: relative;
+  max-width: 100%;
+  min-height: 1px;
+}
+.ant-page-header {
+  box-sizing: border-box;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: "tnum", "tnum";
+  position: relative;
+  padding: 5px 5px;
+  background-color: #fff;
+}
+.todaysData-section-header {
+  padding-bottom: 0;
+  background: transparent;
+  padding-left: 0;
+  padding-right: 0;
+}
+.ant-page-header-heading {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 15px;
+}
+.ant-page-header-heading-extra {
+  margin: 4px 0;
+  margin-top: 10px;
+  white-space: nowrap;
+  margin-left: 12px;
+}
+.ant-typography {
+  color: rgba(0, 0, 0, 0.65);
+  overflow-wrap: break-word;
+}
+.ant-card {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: "tnum", "tnum";
+  position: relative;
+  background: #fff;
+  border-radius: 2px;
+}
+.ant-card-hoverable {
+  transition: box-shadow 0.3s, border-color 0.3s;
+}
+.hoverable-extra-1:hover {
+  z-index: 1;
+  box-shadow: 0 25px 40px rgba(2, 39, 247, 0.2);
+}
+.hoverable-extra-2:hover {
+  z-index: 1;
+  box-shadow: 0 25px 40px rgba(214, 146, 0, 0.2);
+}
+.hoverable-extra-3:hover {
+  z-index: 1;
+  box-shadow: 0 25px 40px rgba(0, 216, 11, 0.2);
+}
+.hoverable-extra-4:hover {
+  z-index: 1;
+  box-shadow: 0 25px 40px rgba(209, 0, 0, 0.2);
+}
+.hoverable-extra-5:hover {
+  z-index: 1;
+  box-shadow: 0 25px 40px rgba(223, 0, 223, 0.2);
+}
+.ant-card-body {
+  padding: 24px;
+  padding-bottom: 15px;
+}
+
+.reusable-card {
+  text-align: right;
+  position: relative;
+  font-size: 13px;
+}
+.reusable-card img {
+  position: absolute;
+  top: 7px;
+  left: 5px;
+  height: 45px;
+  width: 53px;
+  padding-left: 8px;
+  padding-right: 0;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1em;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.ant-col-2 {
+  display: block;
+  flex: 0 0 33.33333333%;
+  max-width: 33.33333333%;
+}
+.ant-col-3 {
+  display: block;
+  flex: 0 0 33.33333333%;
+  max-width: 33.33333333%;
+}
+.total-data-section {
+  padding-left: 20px;
+}
+.totalData-section-header {
+  padding-bottom: 0;
+}
+.totalData-section-header {
+  padding-left: 0;
+  background: transparent;
+  padding-right: 0;
+}
+.ant-page-header-heading-left {
+  display: flex;
+  align-items: center;
+  margin: 4px 0;
+  overflow: hidden;
+}
+.ant-page-header-heading-title {
+  margin-right: 12px;
+  margin-bottom: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
